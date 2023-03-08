@@ -1,0 +1,21 @@
+{
+    "name": "XLSXIO",
+    "id": 20000,
+    "commands": [
+                             {
+                             "theme": "Read",
+                             "syntax": "XLSX TO JSON(&T;&L;&T):T",
+                             "threadSafe": true
+                             },
+                             {
+                             "theme": "Write",
+                             "syntax": "JSON TO XLSX(&T;&T;&L;&L;&T)",
+                             "threadSafe": true
+                             },
+                             {
+                             "theme": "Write",
+                             "syntax": "XLSX SHEET NAMES(&T;&Y)",
+                             "threadSafe": true
+                             }
+                             ]
+}
