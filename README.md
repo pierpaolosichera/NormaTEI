@@ -22,7 +22,7 @@ A questo punto, NormaTEI caricherà tutti i file XML contenuti nella cartella, g
   - il percorso completo;
   - il tag;
   - gli attributi di quel tag;
-  - i valori degli aattributi.
+  - i valori degli attributi.
 
 In alto viene mostrato il numero di risultati totale.
 In basso viene mostrato il numero di valori distinti per ogni colonna.
