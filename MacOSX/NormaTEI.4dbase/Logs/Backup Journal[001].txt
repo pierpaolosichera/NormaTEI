@@ -1,0 +1,30 @@
+*** Full Backup
+Creating archive : C:\Users\dottgiannone\Documents\4D2\ZoneRW.4dbase\ZoneRW[0001].4BK
+Attachment(s): 
+	C:\Users\dottgiannone\Documents\4D2\ZoneRW.4dbase\ZoneRW.4DSyncHeader [NOT FOUND]
+	C:\Users\dottgiannone\Documents\4D2\ZoneRW.4dbase\ZoneRW.4DSyncData [NOT FOUND]
+	C:\Users\dottgiannone\Documents\4D2\ZoneRW.4dbase\ZoneRW.4DIndx [NOT FOUND]
+Scheduled 00/00/00 00.00
+Starting 09/10/21 07.47
+Ending 09/10/21 07.47
+
+*** Full Backup
+Creating archive : C:\Users\dottgiannone\Documents\4D2\ZoneRW.4dbase\ZoneRW[0002].4BK
+Attachment(s): 
+	C:\Users\dottgiannone\Documents\4D2\ZoneRW.4dbase\ZoneRW.4DSyncHeader [NOT FOUND]
+	C:\Users\dottgiannone\Documents\4D2\ZoneRW.4dbase\ZoneRW.4DSyncData [NOT FOUND]
+	C:\Users\dottgiannone\Documents\4D2\ZoneRW.4dbase\ZoneRW.4DIndx [NOT FOUND]
+Scheduled 00/00/00 00.00
+Starting 12/10/21 01.34
+Ending 12/10/21 01.34
+
+*** Full Backup
+Creating archive : C:\Users\dottgiannone\Documents\4D2\ZoneRW.4dbase\ZoneRW[0003].4BK
+Attachment(s): 
+	C:\Users\dottgiannone\Documents\4D2\ZoneRW.4dbase\ZoneRW.4DSyncHeader [NOT FOUND]
+	C:\Users\dottgiannone\Documents\4D2\ZoneRW.4dbase\ZoneRW.4DSyncData [NOT FOUND]
+	C:\Users\dottgiannone\Documents\4D2\ZoneRW.4dbase\ZoneRW.4DIndx [NOT FOUND]
+Scheduled 00/00/00 00.00
+Starting 01/12/21 08.36
+Ending 01/12/21 08.36
+

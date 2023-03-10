@@ -1,0 +1,248 @@
+head { display: block; content: "4D Build Application"; }
+title { display: block; font-size: 100%; font-weight: bold; content: " NEW!"; }
+
+
+BuildApplicationLog {
+      background: #fff; 
+      text-align: left;
+      font-family: Verdana, Helvetica, sans-serif; 
+      margin: 0px; 
+      padding: 0px; 
+	  white-space: normal;
+	  display: block;
+	  padding: 1em;
+	  color: #000;
+      margin: 5px auto;
+	  font-size: 24px;
+}
+
+BuildApplicationLog.hidden { font-size: 0; }
+
+BuildApplicationLog:before
+{
+	content: "Build Application Log\A";
+}
+
+BuildApplicationLog>Log:first-child 
+{ 
+   font-size: 0;
+   text-align: left;
+   border: none;
+   width: 95%;
+   padding: 0em;
+   background-color: #fff;
+   list-style: decimal;
+   display: normal;
+   padding-left:0px;
+   margin-left:0px;
+   white-space: pre;
+}
+BuildApplicationLog>Log:first-child.hidden { font-size: 0; }
+BuildApplicationLog>Log:first-child:Before {
+	content: "\A";
+	white-space: pre;
+}
+
+BuildApplicationLog>Log:first-child > Message {
+   background: #fff; 
+   text-align: left;
+   font-family: Verdana, Helvetica, sans-serif; 
+   margin: 0px; 
+   padding: 0px; 
+   display: list-item;
+   padding: 1em;
+   color: #036;
+   margin: 5px auto;
+   font-size: 18px;
+   border: none;
+   white-space: normal;
+}
+
+BuildApplicationLog>Log:first-child > Message:Before
+{
+	content: "";
+}
+
+BuildApplicationLog>Log:first-child > Message:after
+{
+	content: "\A";
+	white-space: pre;
+}
+
+
+BuildApplicationLog>Log:first-child > MessageType { 
+  display: none;
+  font-size: 0;
+}
+BuildApplicationLog>Log:first-child > Target{ 
+  display: none;
+  font-size: 0; 
+}
+BuildApplicationLog>Log:first-child > CodeDesc{ 
+  display: none;
+  font-size: 0;
+}
+
+BuildApplicationLog>Log:first-child > CodeId { 
+  display: none;
+  font-size: 0;
+}
+
+
+BuildApplicationLog>Log:last-child 
+{ 
+   font-size: 0;
+   text-align: left;
+   border: none;
+   width: 95%;
+   padding: 0em;
+   background-color: #fff;
+   list-style: normal;
+   display: list-item;
+   padding-left:0px;
+   margin-left:0px;
+   white-space: pre;
+}
+BuildApplicationLog>Log:last-child.hidden { font-size: 0; }
+
+BuildApplicationLog>Log:last-child > Message {
+   background: #fff; 
+   text-align: left;
+   font-family: Verdana, Helvetica, sans-serif; 
+   margin: 0px; 
+   padding: 0px; 
+   display: list-item;;
+   padding: 1em;
+   color: #036;
+   margin: 5px auto;
+   font-size: 18px;
+   border: none;
+   white-space: pre;
+}
+
+BuildApplicationLog>Log:last-child > MessageType { 
+  display: none;
+  font-size: 0;
+}
+BuildApplicationLog>Log:last-child > Target{ 
+  display: none;
+  font-size: 0; 
+}
+BuildApplicationLog>Log:last-child > CodeDesc{ 
+  display: none;
+  font-size: 0;
+}
+
+BuildApplicationLog>Log:last-child > CodeId { 
+  display: none;
+  font-size: 0;
+}
+
+BuildApplicationLog > Log {
+	text-align: left;
+    width: 95%;
+	padding: 0.7em;
+    color: #036;
+	background: #eee;
+    clear: left;
+	display: inline-block;
+	list-style: normal;
+	padding-left:20px;
+	margin-left:40px;
+	font-size: 16px;
+	white-space: normal;
+}
+
+BuildApplicationLog > Log > MessageType {
+	border: 0px solid #036;
+	padding-top: 0em;
+	padding-bottom: 0em;
+	padding-left: 0em;
+	width: 95%;
+	color: #000;
+	font-size: 12px;
+	border: 0px solid #036;
+	list-style: none;
+	white-space: normal;
+}
+
+BuildApplicationLog>Log > MessageType { 
+  display: none;
+  font-size: 0;
+}
+
+BuildApplicationLog > Log > Target {
+	border: 0px solid #036;
+	padding-top: 0em;
+	padding-bottom: 0em;
+	padding-left: 0em;
+	width: 95%;
+	color: #000;
+	font-size: 12px;
+	border: 0px solid #036;
+	list-style: none;
+	white-space: normal;
+}
+BuildApplicationLog > Log > CodeDesc {
+	border: 0px solid #036;
+	padding-top: 0em;
+	padding-bottom: 0em;
+	padding-left: 0em;
+	width: 95%;
+	color: #000;
+	font-size: 12px;
+	border: 0px solid #036;
+	list-style: none;
+	padding-left: 0em;
+	white-space: normal;
+}
+BuildApplicationLog > Log > CodeId {
+	border: 0px solid #036;
+	padding-top: 0em;
+	padding-bottom: 0em;
+	padding-left: 0em;
+	width: 95%;
+	color: #000;
+	font-size: 12px;
+	border: 0px solid #036;
+	list-style: none;
+	white-space: normal;
+}
+BuildApplicationLog > Log > Message {
+	border: 0px solid #036;
+	padding-top: 0em;
+	padding-bottom: 0em;
+	width: 95%;
+	color: #000;
+	font-size: 12px;
+	border: 0px solid #036;
+	list-style: none;
+	white-space: normal;
+}
+
+BuildApplicationLog > Log > Target:before
+{
+	content: "[";
+}
+BuildApplicationLog > Log > Target:after
+{
+	content: "]";
+}
+BuildApplicationLog > Log > CodeDesc:before
+{
+	content: "";
+}
+
+BuildApplicationLog > Log > CodeId:before
+{
+	content: "(";
+}
+BuildApplicationLog > Log > CodeId:after
+{
+	content: ") :";
+}
+
+BuildApplicationLog > Log > Message:before
+{
+	content: "";
+}

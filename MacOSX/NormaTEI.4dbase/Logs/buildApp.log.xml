@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet type = "text/css" href="BuildLogStyleSheet.css"?>
+<BuildApplicationLog>
+
+  <Log>
+    <MessageType>Comment</MessageType>
+    <Target>Application</Target>
+    <CodeDesc>NO_ERR</CodeDesc>
+    <CodeId>0</CodeId>
+    <Message>Start "Application" target build [2023-03-09T18:05:13]</Message>
+  </Log>
+
+  <Log>
+    <MessageType>Comment</MessageType>
+    <Target>Common</Target>
+    <CodeDesc>NO_ERR</CodeDesc>
+    <CodeId>0</CodeId>
+    <Message>Plug-in copying from C:\Users\pierpaolo\Documents\4D\NormaTEI.4dbase\Plugins\4D Pack.bundle\ to C:\Users\pierpaolo\Documents\4D\NormaTEI.4dbase\Compiled\NormaTEI_Build\Final Application\NormaTEI\Plugins\.</Message>
+  </Log>
+
+  <Log>
+    <MessageType>Comment</MessageType>
+    <Target>Common</Target>
+    <CodeDesc>NO_ERR</CodeDesc>
+    <CodeId>0</CodeId>
+    <Message>Plug-in copying from C:\Users\pierpaolo\Documents\4D\NormaTEI.4dbase\Plugins\XLSXIO.bundle\ to C:\Users\pierpaolo\Documents\4D\NormaTEI.4dbase\Compiled\NormaTEI_Build\Final Application\NormaTEI\Plugins\.</Message>
+  </Log>
+
+  <Log>
+    <MessageType>Comment</MessageType>
+    <Target>Common</Target>
+    <CodeDesc>NO_ERR</CodeDesc>
+    <CodeId>0</CodeId>
+    <Message>Plug-in copying from C:\Program Files\4D\4D v18.6\4D\Plugins\4D InternetCommands.bundle\ to C:\Users\pierpaolo\Documents\4D\NormaTEI.4dbase\Compiled\NormaTEI_Build\Final Application\NormaTEI\Plugins\.</Message>
+  </Log>
+
+  <Log>
+    <MessageType>Comment</MessageType>
+    <Target>Common</Target>
+    <CodeDesc>NO_ERR</CodeDesc>
+    <CodeId>0</CodeId>
+    <Message>Component copying from C:\Users\pierpaolo\Documents\4D\NormaTEI.4dbase\Components\XML_Tools_v18.4dbase\ to C:\Users\pierpaolo\Documents\4D\NormaTEI.4dbase\Compiled\NormaTEI_Build\Final Application\NormaTEI\Components\.</Message>
+  </Log>
+
+  <Log>
+    <MessageType>Comment</MessageType>
+    <Target>Common</Target>
+    <CodeDesc>NO_ERR</CodeDesc>
+    <CodeId>0</CodeId>
+    <Message>Component copying from C:\Program Files\4D\4D v18.6\4D\Components\4D Progress.4dbase\ to C:\Users\pierpaolo\Documents\4D\NormaTEI.4dbase\Compiled\NormaTEI_Build\Final Application\NormaTEI\Components\.</Message>
+  </Log>
+
+  <Log>
+    <MessageType>Comment</MessageType>
+    <Target>Common</Target>
+    <CodeDesc>NO_ERR</CodeDesc>
+    <CodeId>0</CodeId>
+    <Message>Start copying files : C:\Users\pierpaolo\Documents\4D\NormaTEI.4dbase\Compiled\NormaTEI_Build\Final Application\NormaTEI\Database\NormaTEI.4DC</Message>
+  </Log>
+
+  <Log>
+    <MessageType>Comment</MessageType>
+    <Target>Common</Target>
+    <CodeDesc>NO_ERR</CodeDesc>
+    <CodeId>0</CodeId>
+    <Message>End copying files : C:\Users\pierpaolo\Documents\4D\NormaTEI.4dbase\Compiled\NormaTEI_Build\Final Application\NormaTEI\Database\NormaTEI.4DC</Message>
+  </Log>
+
+  <Log>
+    <MessageType>Comment</MessageType>
+    <Target>Application</Target>
+    <CodeDesc>Copying license file</CodeDesc>
+    <CodeId>0</CodeId>
+    <Message>License file copying from C:\ProgramData\4D\Licenses\4UUD180UUS0018PJ1Z0558A.license4D to C:\Users\pierpaolo\Documents\4D\NormaTEI.4dbase\Compiled\NormaTEI_Build\Final Application\NormaTEI\Licenses\1.license4D.</Message>
+  </Log>
+
+  <Log>
+    <MessageType>Comment</MessageType>
+    <Target>Application</Target>
+    <CodeDesc>NO_ERR</CodeDesc>
+    <CodeId>0</CodeId>
+    <Message>End "Application" target build [2023-03-09T18:05:17]</Message>
+  </Log>
+
+</BuildApplicationLog>
