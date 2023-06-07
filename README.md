@@ -1,3 +1,5 @@
+La pubbòicazione della nuova versione di NormaTEI è prevista per il 9 giugno 2023
+
 # NormaTEI
 NormaTEI è un software per il controllo del contenuto di uno o più file XML.
 
