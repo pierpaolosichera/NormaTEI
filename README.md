@@ -23,7 +23,7 @@ Per utilizzare NormaTEI:
   - vai su "Impostazioni di sistema -> Privacy e sicurezza" e consenti l'apertura di NormaTEI.
 
 ## Utilizzo
-Al primo avvio ti comparirà una finestra per la xreazione del file di dati. 
+Al primo avvio ti comparirà una finestra per la creazione del file di dati. 
 ![Crea un nuovo file dati](https://github.com/pierpaolosichera/NormaTEI/blob/main/README_images/01_NewDataFile.png)
 Scegli "Create" e salvalo dove vuoi, NormaTEI ricorderà il percorso utilizzato.
 
