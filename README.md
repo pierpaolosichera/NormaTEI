@@ -9,7 +9,7 @@ Il nome "Norma" richiama sia l'operazione per cui il software è stato sviluppat
 ## Ambiente
 NormaTEI è stato sviluppato utilizzando 4D (https://www.4d.com/).
 Tra le molteplici caratteristiche di questa piattaforma sono stati sfruttati il supporto nativo XML con la libreria Xerces di Apache Foundation e l’accesso alla struttura di un XML tramite lo standard DOM (Document Object Model).
-NormaTEI è compatibile con Windows 10 – Windows 11 Windows Server 2012 R2 – Windows Server 2022 - macOS Big Sur (11) – macOS Ventura (13) (le ultime release per ogni versione)
+NormaTEI è compatibile con Windows 10 – Windows 11 Windows Server 2012 R2 – Windows Server 2022 - macOS Big Sur (11) – macOS Ventura (13) (le ultime release per ogni versione).
 
 ## Installazione
 Per utilizzare NormaTEI:
@@ -20,14 +20,18 @@ Per utilizzare NormaTEI:
 
 #### MacOSX 
   - scarica la cartella MacOSX;
-  - estrai il file che trovi compresso nella cartella che preferisci e poi esegui il file NormaTEI.app;
-  - vai su "Impostazioni di sistema -> Privacy e sicurezza" e consenti l'apertura di NormaTEI o attivare la voce "Dovunque". Nel caso non fosse presente la si può abilitare con questo comando dato da Terminale:
+  - vai su "Impostazioni di sistema -> Privacy e sicurezza" e attiva la voce "Dovunque". Nel caso in cui la voce "Dovunque" non fosse presente la si può abilitare con questo comando dato da Terminale:
 
 ```
 sudo spctl --master-disable
 ```
+  - estrai il file che trovi compresso nella cartella che preferisci e poi esegui il file NormaTEI.app;
+  - nota (1): se hai provato ad aprire  NormaTEI.app prima di andare su "Privacy e sicurezza", il sistema operativo ti potrebbe aver restituito un errore, impedendo l'apertura dell'applicazione. In questo caso cancella il file ed effettua nuovamente il download e l'estrazione;
+  - nota (2): per abilitare nuovamente Gatekeeper (nel caso lo avessi disattivato) basterà dare lo stesso comando inserendo la parola enable:
 
-Per abilitare nuovamente Gatekeeper basterà dare lo stesso comando inserendo la parola enable.
+```
+sudo spctl --master-enable
+```
 
 ## Utilizzo
 Al primo avvio ti comparirà una finestra per la creazione del file di dati. 
