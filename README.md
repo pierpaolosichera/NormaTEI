@@ -15,11 +15,11 @@ NormaTEI è compatibile con Windows 10 – Windows 11 Windows Server 2012 R2 –
 Per utilizzare NormaTEI:
 
 #### Windows
-  - scarica la cartella Windows;
+  - scarica la cartella Windows (scaricando l'intero repository oppure saricando la singola cartella tramite servizi o software di downlaod);
   - estrai l'archivio compresso nella cartella che preferisci e poi esegui il file NormaTEI.exe.
 
 #### MacOSX 
-  - scarica la cartella MacOSX;
+  - scarica la cartella MacOSX (scaricando l'intero repository oppure saricando la singola cartella tramite servizi o software di downlaod) ma non aprire i file compressi;
   - vai su "Impostazioni di sistema -> Privacy e sicurezza" e attiva la voce "Dovunque". Nel caso in cui la voce "Dovunque" non fosse presente la si può abilitare con questo comando dato da Terminale:
 
 ```
