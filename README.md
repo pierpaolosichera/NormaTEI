@@ -68,6 +68,8 @@ Vengono visualizzati:
 Il conteggio può essere effettuato per attributo o per tag. Esempio: per il tag
 ```xml
 <ab n="ab_02" next="#LL1.10_ab_01_1v" part="I" rend="first_line_indented" type="parag" xml:id="LL1.10_ab_01_1r">
+
+  
 ```
 
 effettuando il conteggio sulla metrica "Tag":
