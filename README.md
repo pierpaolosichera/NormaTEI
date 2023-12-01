@@ -66,9 +66,13 @@ Vengono visualizzati:
   - in quanti file è presente quel fenomeno almeno una volta;
   - i file in cui quel fenomeno è presente/assente (se la riga ha uno sfondo verde quelli mostrati sono i file del corpus dove quel fenomeno non è presente, se la riga ha sfondo rosso sono i file del corpus dove si trova quel fenomeno);
 Il conteggio può essere effettuato per attributo o per tag. Esempio: per il tag
+```xml
 <ab n="ab_02" next="#LL1.10_ab_01_1v" part="I" rend="first_line_indented" type="parag" xml:id="LL1.10_ab_01_1r">
+.```
+
 effettuando il conteggio sulla metrica "Tag":
-  - se il conteggio viene effettuato per Attributo, il valore di ab è 5 (quanti sono gli attributi presenti in questo tag)
+  - se il conteggio viene effettuato per Attributo, il valore di ab è 5 (quanti sono gli attributi presenti in questo tag);
   - se il conteggio viene effettuato per Tab, il valore di ab è 1 (perché ab è un singolo tag).
+
 
 
