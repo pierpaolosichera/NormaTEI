@@ -76,7 +76,7 @@ Il conteggio può essere effettuato per attributo o per tag. Esempio: per il tag
 
 effettuando il conteggio sulla metrica "Tag":
   - se il conteggio viene effettuato per Attributo, il valore di ab è 5 (quanti sono gli attributi presenti in questo tag);
-  - se il conteggio viene effettuato per Tab, il valore di ab è 1 (perché ab è un singolo tag).
+  - se il conteggio viene effettuato per Tag, il valore di ab è 1 (perché ab è un singolo tag).
 
 
 
