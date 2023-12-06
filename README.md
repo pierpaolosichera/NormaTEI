@@ -14,11 +14,11 @@ NormaTEI è compatibile con Windows 10 – Windows 11 Windows Server 2012 R2 –
 ## Installazione
 Per utilizzare NormaTEI:
 
-#### Windows
+### Windows
   - scarica la cartella Windows (scaricando l'intero repository oppure saricando la singola cartella tramite servizi o software di downlaod);
   - estrai i file compressi per ottenere un file zip che puoi estrarre nella cartella che preferisci e poi esegui il file NormaTEI.exe.
 
-#### MacOSX 
+### MacOSX 
   - vai su "Impostazioni di sistema -> Privacy e sicurezza" e controlla che sia attiva la voce "Dovunque". Nel caso in cui la voce "Dovunque" non fosse presente la si può abilitare con questo comando dato da Terminale:
 
 ```
@@ -109,14 +109,14 @@ Anche qui è possbile attivare la funzione di conteggio per analizzare i risulta
 ![Usa risultati](https://github.com/pierpaolosichera/NormaTEI/blob/main/README_images/08_UseResults.gif)
 Cliccando sul pulsante "Usa" è possibile copiare i riultati della ricerca nel parte bassa della finiestra per un uso successivo:
  - Cosa uso:
- -- La selezione: utilizza le righe trovate
- -- I valori della colonna: prende tutti le righe del corpus che hanno quel valore in quella colonna. Il caso più classico è quello in cui ho cercato dove una certa caratteristica è presente mio corpus e vorrei fare delle ricerche successive solo su quei file: in questo caso sceglierò i valori nella colonna "File".
+   _ La selezione: utilizza le righe trovate
+   _ I valori della colonna: prende tutti le righe del corpus che hanno quel valore in quella colonna. Il caso più classico è quello in cui ho cercato dove una certa caratteristica è presente mio corpus e vorrei fare delle ricerche successive solo su quei file: in questo caso sceglierò i valori nella colonna "File".
 
  - Cosa faccio:
- -- Aggiungi: i risultati vengono aggiunti ai risultati nella parte bassa dela finestra;
- -- Togli: i risultati vengono tolti dai risultati nella parte bassa dela finestra;
- -- Prendi i comuni: vengono selezionati i risultati comuni a quelli già presenti nella parte bassa della finestra;
- -- Nuova selezione: vengono utilizzati i risultati selezionati togliendo quelli eventualmente già presenti nella parte bassa della finestra.
+   _ Aggiungi: i risultati vengono aggiunti ai risultati nella parte bassa dela finestra;
+   _ Togli: i risultati vengono tolti dai risultati nella parte bassa dela finestra;
+   _ Prendi i comuni: vengono selezionati i risultati comuni a quelli già presenti nella parte bassa della finestra;
+   _ Nuova selezione: vengono utilizzati i risultati selezionati togliendo quelli eventualmente già presenti nella parte bassa della finestra.
 
 ![Riusa risultati](https://github.com/pierpaolosichera/NormaTEI/blob/main/README_images/09_SearchResults.gif)
 A questo punto è possibile effettuare una nuova ricerca sull'intero corpus oppure premendo "Cerca tra i risultati" può essere effettuata una ricerca tra i dati selezionati nella parte bassa della finestra.
