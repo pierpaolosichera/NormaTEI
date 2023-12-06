@@ -44,12 +44,12 @@ Al primo avvio potrebbe compaarire una finestra per la creazione del file di dat
 ![Crea un nuovo file dati](https://github.com/pierpaolosichera/NormaTEI/blob/main/README_images/01_NewDataFile.png)
 Scegli "Create" e salvalo dove vuoi, NormaTEI ricorderà il percorso utilizzato.
 
-#### Importazione corpus
+### Importazione corpus
 ![Importazione corpus](https://github.com/pierpaolosichera/NormaTEI/blob/main/README_images/02_Open.gif)
 Nella finestra di avvio cliccare su "Cambia...", per scegliere la cartella contenente i file XML, poi premi il tasto "Importa e analizza".
 Se hai gia importato dei file, puoi visualizzare i risultati senza eseguire una nuova importazione col pulsante in basso "Apri i file gia caricati".
 
-#### Ricerca
+### Ricerca
 ![Ricerca semplice](https://github.com/pierpaolosichera/NormaTEI/blob/main/README_images/03_SimpleSearch.gif)
 Al termine dell'operazione scelta, NormaTEI mostrerà i dati, generando una lista che elenca:
   - il file dove è presente quel tag;
@@ -69,7 +69,7 @@ Cliccando sul confine tra le intestazioni delle colonne è possibile ridimension
 Se un tag non ha attributi viene mostrata una riga che avrà i dati sugli attributi vuota. Se un tag ha un attributo viene mostrato col suo valore. Se un tag ha più attributi viene mostrata una riga per ogni attributo.
 In basso viene mostrato il numero di valori distinti per ogni colonna.
 
-#### Conteggio
+### Conteggio
 ![Conteggio per attributo](https://github.com/pierpaolosichera/NormaTEI/blob/main/README_images/04_Count.gif)
 Il pulsante "Conteggio" permette di passare ad una finestra riepilogativa rispetto ai dati visualizzati.
 Vengono visualizzati:
@@ -105,18 +105,18 @@ Al di sopra della stringa di ricerca è possibile scegliere il criterio da appli
 ![Ricerca avanzata](https://github.com/pierpaolosichera/NormaTEI/blob/main/README_images/07_AdvancedSearchExample1)
 Anche qui è possbile attivare la funzione di conteggio per analizzare i risultati.
 
-#### Ricerca su sottoinsiemi del corpus
+### Ricerca su sottoinsiemi del corpus
 ![Usa risultati](https://github.com/pierpaolosichera/NormaTEI/blob/main/README_images/08_UseResults.gif)
 Cliccando sul pulsante "Usa" è possibile copiare i riultati della ricerca nel parte bassa della finiestra per un uso successivo:
  - Cosa uso:
-   _ La selezione: utilizza le righe trovate
-   _ I valori della colonna: prende tutti le righe del corpus che hanno quel valore in quella colonna. Il caso più classico è quello in cui ho cercato dove una certa caratteristica è presente mio corpus e vorrei fare delle ricerche successive solo su quei file: in questo caso sceglierò i valori nella colonna "File".
+   - La selezione: utilizza le righe trovate
+   - I valori della colonna: prende tutti le righe del corpus che hanno quel valore in quella colonna. Il caso più classico è quello in cui ho cercato dove una certa caratteristica è presente mio corpus e vorrei fare delle ricerche successive solo su quei file: in questo caso sceglierò i valori nella colonna "File".
 
  - Cosa faccio:
-   _ Aggiungi: i risultati vengono aggiunti ai risultati nella parte bassa dela finestra;
-   _ Togli: i risultati vengono tolti dai risultati nella parte bassa dela finestra;
-   _ Prendi i comuni: vengono selezionati i risultati comuni a quelli già presenti nella parte bassa della finestra;
-   _ Nuova selezione: vengono utilizzati i risultati selezionati togliendo quelli eventualmente già presenti nella parte bassa della finestra.
+   - Aggiungi: i risultati vengono aggiunti ai risultati nella parte bassa dela finestra;
+   - Togli: i risultati vengono tolti dai risultati nella parte bassa dela finestra;
+   - Prendi i comuni: vengono selezionati i risultati comuni a quelli già presenti nella parte bassa della finestra;
+   - Nuova selezione: vengono utilizzati i risultati selezionati togliendo quelli eventualmente già presenti nella parte bassa della finestra.
 
 ![Riusa risultati](https://github.com/pierpaolosichera/NormaTEI/blob/main/README_images/09_SearchResults.gif)
 A questo punto è possibile effettuare una nuova ricerca sull'intero corpus oppure premendo "Cerca tra i risultati" può essere effettuata una ricerca tra i dati selezionati nella parte bassa della finestra.
