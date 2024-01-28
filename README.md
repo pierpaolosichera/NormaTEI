@@ -102,7 +102,7 @@ Al di sopra della stringa di ricerca è possibile scegliere il criterio da appli
  - Esatto: il valore esatto della stringa;
  - Non contiene: la stringa nin è presente nel campo;
  - Match RegEx: la stringa di ricerca viene valutata come espressione regolare.
-![Ricerca avanzata](https://github.com/pierpaolosichera/NormaTEI/blob/main/README_images/07_AdvancedSearchExample1)
+![Ricerca avanzata](https://github.com/pierpaolosichera/NormaTEI/blob/main/README_images/07_AdvancedSearchExample1.gif)
 Anche qui è possbile attivare la funzione di conteggio per analizzare i risultati.
 
 ### Ricerca su sottoinsiemi del corpus
@@ -178,7 +178,7 @@ Choose "Create" and save it wherever you want, NormaTEI will remember the path u
 In the launch window click on "Change..." to choose the folder containing the XML files, then press the "Import and analyze" button.
 If you have already imported files, you can view the results without performing a new import with the "Open already uploaded files" button below.
 
-### Research
+### Search
 ![Simple search](https://github.com/pierpaolosichera/NormaTEI/blob/main/README_images/03_SimpleSearch.gif)
 At the end of the chosen operation, NormaTEI will show the data, generating a list that lists:
    - the file where that tag is present;
@@ -231,7 +231,7 @@ Above the search string you can choose the criterion to apply to the search stri
   - Exact: the exact value of the string;
   - Does not contain: the string nin is present in the field;
   - Match RegEx: the search string is evaluated as a regular expression.
-![Advanced search](https://github.com/pierpaolosichera/NormaTEI/blob/main/README_images/07_AdvancedSearchExample1)
+![Advanced search](https://github.com/pierpaolosichera/NormaTEI/blob/main/README_images/07_AdvancedSearchExample1.gif)
 Here too it is possible to activate the counting function to analyze the results.
 
 ### Search on subsets of the corpus
