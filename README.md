@@ -40,7 +40,7 @@ NormaTEI offre due modalità di ricerca:
   - Avanzato: per l'analisi e la valutazione approfondita dei corpus.
 
 ## Utilizzo standard
-Al primo avvio potrebbe compaarire una finestra per la creazione del file di dati. 
+Al primo avvio potrebbe comparire una finestra per la creazione del file di dati. 
 ![Crea un nuovo file dati](https://github.com/pierpaolosichera/NormaTEI/blob/main/README_images/01_NewDataFile.png)
 Scegli "Create" e salvalo dove vuoi, NormaTEI ricorderà il percorso utilizzato.
 
@@ -170,16 +170,16 @@ NormaTEI offers two search modes:
 
 ## Standard usage
 At the first start a window for creating the data file may appear.
-![Create a new data file](https://github.com/pierpaolosicera/NormaTEI/blob/main/README_images/01_NewDataFile.png)
+![Create a new data file](https://github.com/pierpaolosichera/NormaTEI/blob/main/README_images/01_NewDataFile.png)
 Choose "Create" and save it wherever you want, NormaTEI will remember the path used.
 
 ### Corpus import
-![Corpus import](https://github.com/pierpaolosicera/NormaTEI/blob/main/README_images/02_Open.gif)
+![Corpus import](https://github.com/pierpaolosichera/NormaTEI/blob/main/README_images/02_Open.gif)
 In the launch window click on "Change..." to choose the folder containing the XML files, then press the "Import and analyze" button.
 If you have already imported files, you can view the results without performing a new import with the "Open already uploaded files" button below.
 
 ### Research
-![Simple search](https://github.com/pierpaolosicera/NormaTEI/blob/main/README_images/03_SimpleSearch.gif)
+![Simple search](https://github.com/pierpaolosichera/NormaTEI/blob/main/README_images/03_SimpleSearch.gif)
 At the end of the chosen operation, NormaTEI will show the data, generating a list that lists:
    - the file where that tag is present;
    - the complete route;
@@ -199,7 +199,7 @@ If a tag has no attributes, a row with empty attribute data is shown. If a tag h
 The number of distinct values for each column is shown at the bottom.
 
 ### Counting
-![Count per attribute](https://github.com/pierpaolosicera/NormaTEI/blob/main/README_images/04_Count.gif)
+![Count per attribute](https://github.com/pierpaolosichera/NormaTEI/blob/main/README_images/04_Count.gif)
 The "Count" button allows you to go to a summary window with respect to the data displayed.
 The following are displayed:
    - the metric on which the counting is performed (the columns of the search window);
@@ -207,7 +207,7 @@ The following are displayed:
    - in how many files is that phenomenon present at least once;
    - the files in which that phenomenon is present/absent (if the line has a green background those shown are the corpus files where that phenomenon is not present, if the line has a red background they are the corpus files where that phenomenon is found) ;
 
-![Count by tag](https://github.com/pierpaolosicera/NormaTEI/blob/main/README_images/05_CountAll.gif)
+![Count by tag](https://github.com/pierpaolosichera/NormaTEI/blob/main/README_images/05_CountAll.gif)
 Counting can be done by attribute or tag. Example: for the tag
 ```xml
  
@@ -235,7 +235,7 @@ Above the search string you can choose the criterion to apply to the search stri
 Here too it is possible to activate the counting function to analyze the results.
 
 ### Search on subsets of the corpus
-![Use results](https://github.com/pierpaolosicera/NormaTEI/blob/main/README_images/08_UseResults.gif)
+![Use results](https://github.com/pierpaolosichera/NormaTEI/blob/main/README_images/08_UseResults.gif)
 By clicking on the "Use" button you can copy the search results in the lower part of the window for later use:
   - What I use:
     - The selection: uses the rows found
@@ -247,7 +247,7 @@ By clicking on the "Use" button you can copy the search results in the lower par
     - Get common: results common to those already present in the lower part of the window are selected;
     - New selection: the selected results are used, removing any already present in the lower part of the window.
 
-![Reuse results](https://github.com/pierpaolosicera/NormaTEI/blob/main/README_images/09_SearchResults.gif)
+![Reuse results](https://github.com/pierpaolosichera/NormaTEI/blob/main/README_images/09_SearchResults.gif)
 At this point it is possible to carry out a new search on the entire corpus or by pressing "Search among results" a search can be carried out among the data selected in the lower part of the window.
 You can also count the lines displayed at the Top or Bottom of the window.
 ![Count advanced results](https://github.com/pierpaolosichera/NormaTEI/blob/main/README_images/10_SearchResultsCount.gif)
