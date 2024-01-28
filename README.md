@@ -25,9 +25,9 @@ Per utilizzare NormaTEI:
 sudo spctl --master-disable
 ```
 
-  - scarica la cartella MacOSX (scaricando l'intero repository oppure saricando la singola cartella tramite servizi o software di downlaod);
+  - scarica la cartella MacOSX (scaricando l'intero repository oppure scaricando la singola cartella tramite servizi o software di downlaod);
   - estrai i file compressi per ottenere un file zip che puoi estrarre nella cartella che preferisci e poi esegui il file NormaTEI.app;
-  - nota (1): se hai provato ad aprire  NormaTEI.app prima di andare su "Privacy e sicurezza", il sistema operativo ti potrebbe aver restituito un errore, impedendo l'apertura dell'applicazione. In questo caso cancella il file ed effettua nuovamente il download e l'estrazione;
+  - nota (1): se hai provato ad aprire NormaTEI.app prima di andare su "Privacy e sicurezza", il sistema operativo ti potrebbe aver restituito un errore, impedendo l'apertura dell'applicazione. In questo caso cancella il file ed effettua nuovamente il download e l'estrazione;
   - nota (2): per abilitare nuovamente Gatekeeper (nel caso lo avessi disattivato) basterà dare lo stesso comando inserendo la parola enable:
 
 ```
@@ -47,7 +47,7 @@ Scegli "Create" e salvalo dove vuoi, NormaTEI ricorderà il percorso utilizzato.
 ### Importazione corpus
 ![Importazione corpus](https://github.com/pierpaolosichera/NormaTEI/blob/main/README_images/02_Open.gif)
 Nella finestra di avvio cliccare su "Cambia...", per scegliere la cartella contenente i file XML, poi premi il tasto "Importa e analizza".
-Se hai gia importato dei file, puoi visualizzare i risultati senza eseguire una nuova importazione col pulsante in basso "Apri i file gia caricati".
+Se hai gia importato dei file, puoi visualizzare i risultati senza eseguire una nuova importazione col pulsante in basso "Apri i file già caricati".
 
 ### Ricerca
 ![Ricerca semplice](https://github.com/pierpaolosichera/NormaTEI/blob/main/README_images/03_SimpleSearch.gif)
@@ -59,7 +59,7 @@ Al termine dell'operazione scelta, NormaTEI mostrerà i dati, generando una list
   - gli attributi di quel tag;
   - i valori degli attributi;
   - il percorso univoco. 
-Con "percorso univoco" si intende attribuire un identificativo univoco ad ogni percorso, aggiungendo ad ogni tag del percorso un codicenumerico del tipo "[N]". Ad esempio "/TEI[1]/text[3]/body[2]/" indica che body è il secondo figlio del tag text che è il terzo figlio del tag TEI che è il primo figlio della root.
+Con "percorso univoco" si intende attribuire un identificativo univoco ad ogni percorso, aggiungendo ad ogni tag del percorso un codice numerico del tipo "[N]". Ad esempio "/TEI[1]/text[3]/body[2]/" indica che body è il secondo figlio del tag text che è il terzo figlio del tag TEI che è il primo figlio della root.
 In alto a sinistra viene mostrato il numero di risultati totale rispetto al corpus preso in esame.
 I risultati mostrano:
   - una riga per ogni attributo di un tag: quindi se un tag ha tre attributi l'elenco mostra tre righe, una per ogni attributo;
@@ -100,27 +100,27 @@ Al di sopra della stringa di ricerca è possibile scegliere il criterio da appli
  - Inizia con: la stringa si trova nella parte iniziale del campo;
  - Finisce con: la stringa si trova nella parte finale del campo;
  - Esatto: il valore esatto della stringa;
- - Non contiene: la stringa nin è presente nel campo;
+ - Non contiene: la stringa non è presente nel campo;
  - Match RegEx: la stringa di ricerca viene valutata come espressione regolare.
 ![Ricerca avanzata](https://github.com/pierpaolosichera/NormaTEI/blob/main/README_images/07_AdvancedSearchExample1.gif)
-Anche qui è possbile attivare la funzione di conteggio per analizzare i risultati.
+Anche qui è possibile attivare la funzione di conteggio per analizzare i risultati.
 
 ### Ricerca su sottoinsiemi del corpus
 ![Usa risultati](https://github.com/pierpaolosichera/NormaTEI/blob/main/README_images/08_UseResults.gif)
-Cliccando sul pulsante "Usa" è possibile copiare i riultati della ricerca nel parte bassa della finiestra per un uso successivo:
+Cliccando sul pulsante "Usa" è possibile copiare i risultati della ricerca nella parte bassa della finiestra per un uso successivo:
  - Cosa uso:
    - La selezione: utilizza le righe trovate
    - I valori della colonna: prende tutti le righe del corpus che hanno quel valore in quella colonna. Il caso più classico è quello in cui ho cercato dove una certa caratteristica è presente mio corpus e vorrei fare delle ricerche successive solo su quei file: in questo caso sceglierò i valori nella colonna "File".
 
  - Cosa faccio:
-   - Aggiungi: i risultati vengono aggiunti ai risultati nella parte bassa dela finestra;
-   - Togli: i risultati vengono tolti dai risultati nella parte bassa dela finestra;
+   - Aggiungi: i risultati vengono aggiunti ai risultati nella parte bassa della finestra;
+   - Togli: i risultati vengono tolti dai risultati nella parte bassa della finestra;
    - Prendi i comuni: vengono selezionati i risultati comuni a quelli già presenti nella parte bassa della finestra;
    - Nuova selezione: vengono utilizzati i risultati selezionati togliendo quelli eventualmente già presenti nella parte bassa della finestra.
 
 ![Riusa risultati](https://github.com/pierpaolosichera/NormaTEI/blob/main/README_images/09_SearchResults.gif)
 A questo punto è possibile effettuare una nuova ricerca sull'intero corpus oppure premendo "Cerca tra i risultati" può essere effettuata una ricerca tra i dati selezionati nella parte bassa della finestra.
-È inoltre possibile effetuare un conteggio sulle righe visualizzate nella parte Superiore o Inferiore della finestra.
+È inoltre possibile effettuare un conteggio sulle righe visualizzate nella parte Superiore o Inferiore della finestra.
 ![Conta risultati avanzati](https://github.com/pierpaolosichera/NormaTEI/blob/main/README_images/10_SearchResultsCount.gif)
 
 
@@ -229,7 +229,7 @@ Above the search string you can choose the criterion to apply to the search stri
   - Starts with: the string is found in the initial part of the field;
   - Ends with: the string is found in the final part of the field;
   - Exact: the exact value of the string;
-  - Does not contain: the string nin is present in the field;
+  - Does not contain: the string isn't present in the field;
   - Match RegEx: the search string is evaluated as a regular expression.
 ![Advanced search](https://github.com/pierpaolosichera/NormaTEI/blob/main/README_images/07_AdvancedSearchExample1.gif)
 Here too it is possible to activate the counting function to analyze the results.
