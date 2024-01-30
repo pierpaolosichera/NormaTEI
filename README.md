@@ -6,10 +6,20 @@ NormaTEI è progettato principalmente per due utilizzi:
 Il nome "Norma" richiama sia l'operazione per cui il software è stato sviluppato ("normalizzazione") che la più famosa opera di Vincenzo Bellini: NormaTEI è stato sviluppato infatti durante la realizzazione di Bellini Digital Correspondence, © Cnr Edizioni, 2023 ISBN: 978-88-8080-562-5 (edizione elettronica). 
 [Bellini Digital Correspondence, © Cnr Edizioni, 2023 ISBN: 978-88-8080-562-5 -edizione elettronica-](http://bellinicorrespondence.cnr.it)
 
+## Crediti
+### Analisi
+  - Daria Spampinato (ISTC-CNR)
+  - Angelo Mario Del Grosso (ILC-CNR)
+  - Laura Mazzagufo (UNIPI)
+### Sviluppo
+  - Pierpaolo Sichera (ILIESI-CNR)
+### Test
+  - Salvatore Cristofaro (ILIESI-CNR)
+
 ## Ambiente
 NormaTEI è stato sviluppato utilizzando 4D (https://www.4d.com/).
-Tra le molteplici caratteristiche di questa piattaforma sono stati sfruttati il supporto nativo XML con la libreria Xerces di Apache Foundation e l’accesso alla struttura di un XML tramite lo standard DOM (Document Object Model).
-NormaTEI è compatibile con Windows 10 – Windows 11 Windows Server 2012 R2 – Windows Server 2022 - macOS Big Sur (11) – macOS Ventura (13) (le ultime release per ogni versione).
+Tra le molteplici caratteristiche di questa piattaforma sono stati sfruttati il supporto nativo XML grazie alla libreria Xerces di Apache Foundation e l’accesso alla struttura di un XML tramite lo standard DOM (Document Object Model).
+NormaTEI è compatibile con Windows 10 – Windows 11 - da Windows Server 2012 R2 a Windows Server 2022 - da macOS Big Sur (11) a macOS Ventura (13) (le ultime release per ogni versione).
 
 ## Installazione
 Per utilizzare NormaTEI:
@@ -133,10 +143,20 @@ NormaTEI is designed mainly for two uses:
 The name "Norma" recalls both the operation for which the software was developed ("normalization") and the most famous work of Vincenzo Bellini: NormaTEI was in fact developed during the creation of Bellini Digital Correspondence, © Cnr Edizioni, 2023 ISBN : 978-88-8080-562-5 (electronic edition).
 [Bellini Digital Correspondence, © Cnr Edizioni, 2023 ISBN: 978-88-8080-562-5 -electronic edition-](http://bellinicorrespondence.cnr.it)
 
+## Credits
+### Analysis
+  - Daria Spampinato (ISTC-CNR)
+  - Angelo Mario Del Grosso (ILC-CNR)
+  - Laura Mazzagufo (UNIPI)
+### Development
+  - Pierpaolo Sichera (ILIESI-CNR)
+### Test
+  - Salvatore Cristofaro (ILIESI-CNR)
+
 ## Environment
 NormaTEI was developed using 4D (https://www.4d.com/).
-Among the many features of this platform, native XML support with the Apache Foundation's Xerces library and access to the structure of an XML via the DOM (Document Object Model) standard have been exploited.
-NormaTEI is compatible with Windows 10 – Windows 11 Windows Server 2012 R2 – Windows Server 2022 - macOS Big Sur (11) – macOS Ventura (13) (the latest releases for each version).
+Among the many features of this platform, native XML support has been exploited (thanks to the Apache Foundation's Xerces library) and access to the structure of an XML via the DOM (Document Object Model) standard.
+NormaTEI is compatible with Windows 10 – Windows 11 - from Windows Server 2012 R2 to Windows Server 2022 - from macOS Big Sur (11) to macOS Ventura (13) (the latest releases for each version).
 
 ## Installation
 To use NormaTEI:
