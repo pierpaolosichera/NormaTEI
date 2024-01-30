@@ -139,8 +139,7 @@ NormaTEI is software for analyzing the content of one or more XML files.
 NormaTEI is designed mainly for two uses:
   - control of coding uniformity: when an XML/TEI edition is made up of multiple files, NormaTEI allows you to control them in an organic way, allowing you to easily identify errors or different coding choices;
   - coding analysis: personalized and complex searches on the selected corpus.
-The name "Norma" recalls both the operation for which the software was developed ("normalization") and the most famous work of Vincenzo Bellini: NormaTEI was in fact developed during the creation of Bellini Digital Correspondence, © Cnr Edizioni, 2023 ISBN : 978-88-8080-562-5 (electronic edition).
-[Bellini Digital Correspondence, © Cnr Edizioni, 2023 ISBN: 978-88-8080-562-5 -electronic edition-](http://bellinicorrespondence.cnr.it)
+The name "Norma" recalls both the operation for which the software was developed ("normalization") and the most famous work of Vincenzo Bellini: NormaTEI was in fact developed during the creation of [Bellini Digital Correspondence, © Cnr Edizioni, 2023 ISBN: 978-88-8080-562-5, electronic edition](http://bellinicorrespondence.cnr.it).
 
 ## Credits
 ### Analysis
@@ -172,7 +171,7 @@ To use NormaTEI:
 sudo spctl --master-disable
 ```
   
-  - download the MacOSX folder (downloading the entire repository or downloading the single folder via download services or software);
+   - download the MacOSX folder (downloading the entire repository or downloading the single folder via download services or software);
    - extract the compressed files to obtain a zip file that you can extract to the folder you prefer and then run the NormaTEI.app file;
    - note (1): if you tried to open NormaTEI.app before going to "Privacy and security", the operating system may have returned an error, preventing the application from opening. In this case, delete the file and download and extract it again;
    - note (2): to enable Gatekeeper again (if you have deactivated it) just give the same command by inserting the word enable:
