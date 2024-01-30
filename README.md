@@ -3,8 +3,7 @@ NormaTEI è un software per l'analisi del contenuto di uno o più file XML.
 NormaTEI è progettato principalmente per due utilizzi:
  - controllo dell'uniformità di codifica: quando un'edizione XML/TEI è formata da più file, NormaTEI permette di controllarli in maniera organica, permettendo di individuare facilmente errori o scelte di codifica difformi;
  - analisi della codifica: ricerche personalizzate e complesse sul corpus selezionato.
-Il nome "Norma" richiama sia l'operazione per cui il software è stato sviluppato ("normalizzazione") che la più famosa opera di Vincenzo Bellini: NormaTEI è stato sviluppato infatti durante la realizzazione di Bellini Digital Correspondence, © Cnr Edizioni, 2023 ISBN: 978-88-8080-562-5 (edizione elettronica). 
-[Bellini Digital Correspondence, © Cnr Edizioni, 2023 ISBN: 978-88-8080-562-5 -edizione elettronica-](http://bellinicorrespondence.cnr.it)
+Il nome "Norma" richiama sia l'operazione per cui il software è stato sviluppato ("normalizzazione") che la più famosa opera di Vincenzo Bellini: NormaTEI è stato sviluppato infatti durante la realizzazione di [Bellini Digital Correspondence, © Cnr Edizioni, 2023 ISBN: 978-88-8080-562-5, edizione elettronica](http://bellinicorrespondence.cnr.it).
 
 ## Crediti
 ### Analisi
