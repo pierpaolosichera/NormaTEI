@@ -3,7 +3,6 @@
 # ====================================================================
 
 * text=auto
-*.js linguist-detectable=false
 
 # ====================================================================
 # The above will handle all files NOT found below
