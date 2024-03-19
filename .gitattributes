@@ -40,3 +40,5 @@
 *.[dD][aA][tT][aA]  binary    linguist-language=4d
 *.4lb               binary    linguist-language=4d
 *.4qr               binary    linguist-language=4d
+*.[0-9][0-9][0-9]   binary    linguist-language=4d
+
