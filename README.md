@@ -1,5 +1,6 @@
 # NormaTEI
 <a href="https://doi.org/10.5281/zenodo.10419465"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.10419465.svg" alt="DOI"></a>
+
 NormaTEI è un software per l'analisi del contenuto di uno o più file XML.
 NormaTEI è progettato principalmente per due utilizzi:
  - controllo dell'uniformità di codifica: quando un'edizione XML/TEI è formata da più file, NormaTEI permette di controllarli in maniera organica, permettendo di individuare facilmente errori o scelte di codifica difformi;
@@ -108,6 +109,7 @@ Al di sopra della stringa di ricerca è possibile scegliere il criterio da appli
  - Esatto: il valore esatto della stringa;
  - Non contiene: la stringa non è presente nel campo;
  - Match RegEx: la stringa di ricerca viene valutata come espressione regolare.
+
 ![Ricerca avanzata](https://github.com/pierpaolosichera/NormaTEI/blob/main/README_images/07_AdvancedSearchExample1.gif)
 Anche qui è possibile attivare la funzione di conteggio per analizzare i risultati.
 
@@ -240,6 +242,7 @@ Above the search string you can choose the criterion to apply to the search stri
   - Exact: the exact value of the string;
   - Does not contain: the string isn't present in the field;
   - Match RegEx: the search string is evaluated as a regular expression.
+
 ![Advanced search](https://github.com/pierpaolosichera/NormaTEI/blob/main/README_images/07_AdvancedSearchExample1.gif)
 Here too it is possible to activate the counting function to analyze the results.
 
