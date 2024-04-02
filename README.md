@@ -1,4 +1,5 @@
 # NormaTEI
+<a href="https://doi.org/10.5281/zenodo.10419465"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.10419465.svg" alt="DOI"></a>
 NormaTEI è un software per l'analisi del contenuto di uno o più file XML.
 NormaTEI è progettato principalmente per due utilizzi:
  - controllo dell'uniformità di codifica: quando un'edizione XML/TEI è formata da più file, NormaTEI permette di controllarli in maniera organica, permettendo di individuare facilmente errori o scelte di codifica difformi;
@@ -90,12 +91,8 @@ Vengono visualizzati:
 ![Conteggio per tag](https://github.com/pierpaolosichera/NormaTEI/blob/main/README_images/05_CountAll.gif)
 Il conteggio può essere effettuato per attributo o per tag. Esempio: per il tag
 ```xml
- 
- 
-<ab n="ab_02" next="#LL1.10_ab_01_1v" part="I" rend="first_line_indented" type="parag" xml:id="LL1.10_ab_01_1r">
-
-
-```
+ <ab n="ab_02" next="#LL1.10_ab_01_1v" part="I" rend="first_line_indented" type="parag" xml:id="LL1.10_ab_01_1r">
+ ```
 
 effettuando il conteggio sulla metrica "Tag":
   - se il conteggio viene effettuato per Attributo, il valore di ab è 5 (quanti sono gli attributi presenti in questo tag);
@@ -166,7 +163,6 @@ To use NormaTEI:
 ### MacOSX
    - go to "System Settings -> Privacy and Security" and check that the "Everywhere" option is enabled. If the "Everywhere" item is not present, you can enable it with this command given by Terminal:
 
-
 ```
 sudo spctl --master-disable
 ```
@@ -175,7 +171,6 @@ sudo spctl --master-disable
    - extract the compressed files to obtain a zip file that you can extract to the folder you prefer and then run the NormaTEI.app file;
    - note (1): if you tried to open NormaTEI.app before going to "Privacy and security", the operating system may have returned an error, preventing the application from opening. In this case, delete the file and download and extract it again;
    - note (2): to enable Gatekeeper again (if you have deactivated it) just give the same command by inserting the word enable:
-
 
 ```
 sudo spctl --master-enable
@@ -228,12 +223,8 @@ The following are displayed:
 ![Count by tag](https://github.com/pierpaolosichera/NormaTEI/blob/main/README_images/05_CountAll.gif)
 Counting can be done by attribute or tag. Example: for the tag
 ```xml
- 
- 
-<ab n="ab_02" next="#LL1.10_ab_01_1v" part="I" rend="first_line_indented" type="parag" xml:id="LL1.10_ab_01_1r">
-
-
-```
+ <ab n="ab_02" next="#LL1.10_ab_01_1v" part="I" rend="first_line_indented" type="parag" xml:id="LL1.10_ab_01_1r">
+ ```
 
 counting on the "Tag" metric:
    - if the counting is carried out by Attribute, the value of ab is 5 (how many attributes are present in this tag);
