@@ -1,6 +1,8 @@
 # NormaTEI
 <a href="https://doi.org/10.5281/zenodo.10419465"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.10419465.svg" alt="DOI"></a>
 
+<a href="http://dhawards.org/dhawards2023/results/"><img src="https://github.com/pierpaolosichera/NormaTEI/blob/main/README_images/DHAwards2023-tool.png" alt="DHAwards2023-tools"></a>
+
 NormaTEI è un software per l'analisi del contenuto di uno o più file XML.
 NormaTEI è progettato principalmente per due utilizzi:
  - controllo dell'uniformità di codifica: quando un'edizione XML/TEI è formata da più file, NormaTEI permette di controllarli in maniera organica, permettendo di individuare facilmente errori o scelte di codifica difformi;
@@ -19,6 +21,8 @@ Il nome "Norma" richiama sia l'operazione per cui il software è stato sviluppat
   - Salvatore Cristofaro (ILIESI-CNR)
 
 ## Ambiente
+<a href="https://www.4d.com/"><img src="https://github.com/pierpaolosichera/NormaTEI/blob/main/README_images/4D.png" alt="4D" width="10%" height="10%" ></a>
+
 NormaTEI è stato sviluppato utilizzando 4D (https://www.4d.com/).
 Tra le molteplici caratteristiche di questa piattaforma sono stati sfruttati il supporto nativo XML grazie alla libreria Xerces di Apache Foundation e l’accesso alla struttura di un XML tramite lo standard DOM (Document Object Model).
 NormaTEI è compatibile con Windows 10 – Windows 11 - da Windows Server 2012 R2 a Windows Server 2022 - da macOS Big Sur (11) a macOS Ventura (13) (le ultime release per ogni versione).
@@ -135,6 +139,10 @@ A questo punto è possibile effettuare una nuova ricerca sull'intero corpus oppu
 
 
 # NormaTEI
+<a href="https://doi.org/10.5281/zenodo.10419465"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.10419465.svg" alt="DOI"></a>
+
+<a href="http://dhawards.org/dhawards2023/results/"><img src="https://github.com/pierpaolosichera/NormaTEI/blob/main/README_images/DHAwards2023-tool.png" alt="DHAwards2023-tools"></a>
+
 NormaTEI is software for analyzing the content of one or more XML files.
 NormaTEI is designed mainly for two uses:
   - control of coding uniformity: when an XML/TEI edition is made up of multiple files, NormaTEI allows you to control them in an organic way, allowing you to easily identify errors or different coding choices;
@@ -153,6 +161,8 @@ The name "Norma" recalls both the operation for which the software was developed
   - Salvatore Cristofaro (ILIESI-CNR)
 
 ## Environment
+<a href="https://www.4d.com/"><img src="https://github.com/pierpaolosichera/NormaTEI/blob/main/README_images/4D.png" alt="4D" width="10%" height="10%" ></a>
+
 NormaTEI was developed using 4D (https://www.4d.com/).
 Among the many features of this platform, native XML support has been exploited (thanks to the Apache Foundation's Xerces library) and access to the structure of an XML via the DOM (Document Object Model) standard.
 NormaTEI is compatible with Windows 10 – Windows 11 - from Windows Server 2012 R2 to Windows Server 2022 - from macOS Big Sur (11) to macOS Ventura (13) (the latest releases for each version).
