@@ -31,7 +31,7 @@ NormaTEI è compatibile con Windows 10 – Windows 11 - da Windows Server 2012 R
 Per utilizzare NormaTEI:
 
 ### Windows
-  - scarica la cartella Windows (scaricando l'intero repository oppure saricando la singola cartella tramite servizi o software di downlaod);
+  - scarica la cartella Windows (scaricando l'intero repository oppure saricando la singola cartella tramite servizi o software di download);
   - estrai i file compressi per ottenere un file zip che puoi estrarre nella cartella che preferisci e poi esegui il file NormaTEI.exe.
 
 ### MacOSX 
@@ -41,7 +41,7 @@ Per utilizzare NormaTEI:
 sudo spctl --master-disable
 ```
 
-  - scarica la cartella MacOSX (scaricando l'intero repository oppure scaricando la singola cartella tramite servizi o software di downlaod);
+  - scarica la cartella MacOSX (scaricando l'intero repository oppure scaricando la singola cartella tramite servizi o software di download);
   - estrai i file compressi per ottenere un file zip che puoi estrarre nella cartella che preferisci e poi esegui il file NormaTEI.app;
   - nota (1): se hai provato ad aprire NormaTEI.app prima di andare su "Privacy e sicurezza", il sistema operativo ti potrebbe aver restituito un errore, impedendo l'apertura dell'applicazione. In questo caso cancella il file ed effettua nuovamente il download e l'estrazione;
   - nota (2): per abilitare nuovamente Gatekeeper (nel caso lo avessi disattivato) basterà dare lo stesso comando inserendo la parola enable:
