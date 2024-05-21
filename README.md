@@ -1,7 +1,7 @@
 # NormaTEI
 <a href="https://doi.org/10.5281/zenodo.10419465"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.10419465.svg" alt="DOI"></a>
 
-<a href="http://dhawards.org/dhawards2023/results/"><img src="https://github.com/pierpaolosichera/NormaTEI/blob/main/README_images/DHAwards2023-tool.png" alt="DHAwards2023-tools"></a>
+<a href="http://dhawards.org/dhawards2023/results/"><img src="https://raw.githubusercontent.com/pierpaolosichera/NormaTEI/7804d3a0d6818d2963f6f08b6fb56ed460103385/README_images/DHAwards2023-tool.png" alt="DHAwards2023-tools"></a>
 
 NormaTEI è un software per l'analisi del contenuto di uno o più file XML.
 NormaTEI è progettato principalmente per due utilizzi:
@@ -21,7 +21,7 @@ Il nome "Norma" richiama sia l'operazione per cui il software è stato sviluppat
   - Salvatore Cristofaro (ILIESI-CNR)
 
 ## Ambiente
-<a href="https://www.4d.com/"><img src="https://github.com/pierpaolosichera/NormaTEI/blob/main/README_images/4D.png" alt="4D" width="10%" height="10%" ></a>
+<a href="https://www.4d.com/"><img src="https://raw.githubusercontent.com/pierpaolosichera/NormaTEI/7804d3a0d6818d2963f6f08b6fb56ed460103385/README_images/4D.png" alt="4D" width="10%" height="10%" ></a>
 
 NormaTEI è stato sviluppato utilizzando 4D (https://www.4d.com/).
 Tra le molteplici caratteristiche di questa piattaforma sono stati sfruttati il supporto nativo XML grazie alla libreria Xerces di Apache Foundation e l’accesso alla struttura di un XML tramite lo standard DOM (Document Object Model).
@@ -57,16 +57,16 @@ NormaTEI offre due modalità di ricerca:
 
 ## Utilizzo standard
 Al primo avvio potrebbe comparire una finestra per la creazione del file di dati. 
-![Crea un nuovo file dati](https://github.com/pierpaolosichera/NormaTEI/blob/main/README_images/01_NewDataFile.png)
+![Crea un nuovo file dati](https://raw.githubusercontent.com/pierpaolosichera/NormaTEI/7804d3a0d6818d2963f6f08b6fb56ed460103385/README_images/01_NewDataFile.png)
 Scegli "Create" e salvalo dove vuoi, NormaTEI ricorderà il percorso utilizzato.
 
 ### Importazione corpus
-![Importazione corpus](https://github.com/pierpaolosichera/NormaTEI/blob/main/README_images/02_Open.gif)
+![Importazione corpus](https://raw.githubusercontent.com/pierpaolosichera/NormaTEI/7804d3a0d6818d2963f6f08b6fb56ed460103385/README_images/02_Open.gif)
 Nella finestra di avvio cliccare su "Cambia...", per scegliere la cartella contenente i file XML, poi premi il tasto "Importa e analizza".
 Se hai gia importato dei file, puoi visualizzare i risultati senza eseguire una nuova importazione col pulsante in basso "Apri i file già caricati".
 
 ### Ricerca
-![Ricerca semplice](https://github.com/pierpaolosichera/NormaTEI/blob/main/README_images/03_SimpleSearch.gif)
+![Ricerca semplice](https://raw.githubusercontent.com/pierpaolosichera/NormaTEI/7804d3a0d6818d2963f6f08b6fb56ed460103385/README_images/03_SimpleSearch.gif)
 Al termine dell'operazione scelta, NormaTEI mostrerà i dati, generando una lista che elenca:
   - il file dove è presente quel tag;
   - il percorso completo;
@@ -86,7 +86,7 @@ Se un tag non ha attributi viene mostrata una riga che avrà i dati sugli attrib
 In basso viene mostrato il numero di valori distinti per ogni colonna.
 
 ### Conteggio
-![Conteggio per attributo](https://github.com/pierpaolosichera/NormaTEI/blob/main/README_images/04_Count.gif)
+![Conteggio per attributo](https://raw.githubusercontent.com/pierpaolosichera/NormaTEI/7804d3a0d6818d2963f6f08b6fb56ed460103385/README_images/04_Count.gif)
 Il pulsante "Conteggio" permette di passare ad una finestra riepilogativa rispetto ai dati visualizzati.
 Vengono visualizzati:
   - la metrica su cui viene eseguito il conteggio (le colonne della finestra di ricerca);
@@ -94,7 +94,7 @@ Vengono visualizzati:
   - in quanti file è presente quel fenomeno almeno una volta;
   - i file in cui quel fenomeno è presente/assente (se la riga ha uno sfondo verde quelli mostrati sono i file del corpus dove quel fenomeno non è presente, se la riga ha sfondo rosso sono i file del corpus dove si trova quel fenomeno);
 
-![Conteggio per tag](https://github.com/pierpaolosichera/NormaTEI/blob/main/README_images/05_CountAll.gif)
+![Conteggio per tag](https://raw.githubusercontent.com/pierpaolosichera/NormaTEI/7804d3a0d6818d2963f6f08b6fb56ed460103385/README_images/05_CountAll.gif)
 Il conteggio può essere effettuato per attributo o per tag. Esempio: per il tag
 ```xml
  <ab n="ab_02" next="#LL1.10_ab_01_1v" part="I" rend="first_line_indented" type="parag" xml:id="LL1.10_ab_01_1r">
@@ -105,7 +105,7 @@ effettuando il conteggio sulla metrica "Tag":
   - se il conteggio viene effettuato per Tag, il valore di ab è 1 (perché ab è un singolo tag).
 
 ## Utilizzo avanzato
-![Ricerca avanzata](https://github.com/pierpaolosichera/NormaTEI/blob/main/README_images/06_AdvancedSearch.gif)
+![Ricerca avanzata](https://raw.githubusercontent.com/pierpaolosichera/NormaTEI/7804d3a0d6818d2963f6f08b6fb56ed460103385/README_images/06_AdvancedSearch.gif)
 Cliccando in alto a destra su "Avanzato" è possibile attivare la finestra di ricerca avanzata.
 Al di sopra della stringa di ricerca è possibile scegliere il criterio da applicare alla stringa di ricerca:
  - Contiene: la stringa è contenuta nel campo (senza distinzione di maiuscole e minuscole);
@@ -115,11 +115,11 @@ Al di sopra della stringa di ricerca è possibile scegliere il criterio da appli
  - Non contiene: la stringa non è presente nel campo;
  - Match RegEx: la stringa di ricerca viene valutata come espressione regolare.
 
-![Ricerca avanzata](https://github.com/pierpaolosichera/NormaTEI/blob/main/README_images/07_AdvancedSearchExample1.gif)
+![Ricerca avanzata](https://raw.githubusercontent.com/pierpaolosichera/NormaTEI/7804d3a0d6818d2963f6f08b6fb56ed460103385/README_images/07_AdvancedSearchExample1.gif)
 Anche qui è possibile attivare la funzione di conteggio per analizzare i risultati.
 
 ### Ricerca su sottoinsiemi del corpus
-![Usa risultati](https://github.com/pierpaolosichera/NormaTEI/blob/main/README_images/08_UseResults.gif)
+![Usa risultati](https://raw.githubusercontent.com/pierpaolosichera/NormaTEI/7804d3a0d6818d2963f6f08b6fb56ed460103385/README_images/08_UseResults.gif)
 Cliccando sul pulsante "Usa" è possibile copiare i risultati della ricerca nella parte bassa della finiestra per un uso successivo:
  - Cosa uso:
    - La selezione: utilizza le righe trovate
@@ -131,17 +131,17 @@ Cliccando sul pulsante "Usa" è possibile copiare i risultati della ricerca nell
    - Prendi i comuni: vengono selezionati i risultati comuni a quelli già presenti nella parte bassa della finestra;
    - Nuova selezione: vengono utilizzati i risultati selezionati togliendo quelli eventualmente già presenti nella parte bassa della finestra.
 
-![Riusa risultati](https://github.com/pierpaolosichera/NormaTEI/blob/main/README_images/09_SearchResults.gif)
+![Riusa risultati](https://raw.githubusercontent.com/pierpaolosichera/NormaTEI/7804d3a0d6818d2963f6f08b6fb56ed460103385/README_images/09_SearchResults.gif)
 A questo punto è possibile effettuare una nuova ricerca sull'intero corpus oppure premendo "Cerca tra i risultati" può essere effettuata una ricerca tra i dati selezionati nella parte bassa della finestra.
 È inoltre possibile effettuare un conteggio sulle righe visualizzate nella parte Superiore o Inferiore della finestra.
-![Conta risultati avanzati](https://github.com/pierpaolosichera/NormaTEI/blob/main/README_images/10_SearchResultsCount.gif)
+![Conta risultati avanzati](https://raw.githubusercontent.com/pierpaolosichera/NormaTEI/7804d3a0d6818d2963f6f08b6fb56ed460103385/README_images/10_SearchResultsCount.gif)
 
 
 
 # NormaTEI
 <a href="https://doi.org/10.5281/zenodo.10419465"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.10419465.svg" alt="DOI"></a>
 
-<a href="http://dhawards.org/dhawards2023/results/"><img src="https://github.com/pierpaolosichera/NormaTEI/blob/main/README_images/DHAwards2023-tool.png" alt="DHAwards2023-tools"></a>
+<a href="http://dhawards.org/dhawards2023/results/"><img src="https://raw.githubusercontent.com/pierpaolosichera/NormaTEI/7804d3a0d6818d2963f6f08b6fb56ed460103385/README_images/DHAwards2023-tool.png" alt="DHAwards2023-tools"></a>
 
 NormaTEI is software for analyzing the content of one or more XML files.
 NormaTEI is designed mainly for two uses:
@@ -161,7 +161,7 @@ The name "Norma" recalls both the operation for which the software was developed
   - Salvatore Cristofaro (ILIESI-CNR)
 
 ## Environment
-<a href="https://www.4d.com/"><img src="https://github.com/pierpaolosichera/NormaTEI/blob/main/README_images/4D.png" alt="4D" width="10%" height="10%" ></a>
+<a href="https://www.4d.com/"><img src="https://raw.githubusercontent.com/pierpaolosichera/NormaTEI/7804d3a0d6818d2963f6f08b6fb56ed460103385/README_images/4D.png" alt="4D" width="10%" height="10%" ></a>
 
 NormaTEI was developed using 4D (https://www.4d.com/).
 Among the many features of this platform, native XML support has been exploited (thanks to the Apache Foundation's Xerces library) and access to the structure of an XML via the DOM (Document Object Model) standard.
@@ -197,16 +197,16 @@ NormaTEI offers two search modes:
 
 ## Standard usage
 At the first start a window for creating the data file may appear.
-![Create a new data file](https://github.com/pierpaolosichera/NormaTEI/blob/main/README_images/01_NewDataFile.png)
+![Create a new data file](https://raw.githubusercontent.com/pierpaolosichera/NormaTEI/7804d3a0d6818d2963f6f08b6fb56ed460103385/README_images/01_NewDataFile.png)
 Choose "Create" and save it wherever you want, NormaTEI will remember the path used.
 
 ### Corpus import
-![Corpus import](https://github.com/pierpaolosichera/NormaTEI/blob/main/README_images/02_Open.gif)
+![Corpus import](https://raw.githubusercontent.com/pierpaolosichera/NormaTEI/7804d3a0d6818d2963f6f08b6fb56ed460103385/README_images/02_Open.gif)
 In the launch window click on "Change..." to choose the folder containing the XML files, then press the "Import and analyze" button.
 If you have already imported files, you can view the results without performing a new import with the "Open already uploaded files" button below.
 
 ### Search
-![Simple search](https://github.com/pierpaolosichera/NormaTEI/blob/main/README_images/03_SimpleSearch.gif)
+![Simple search](https://raw.githubusercontent.com/pierpaolosichera/NormaTEI/7804d3a0d6818d2963f6f08b6fb56ed460103385/README_images/03_SimpleSearch.gif)
 At the end of the chosen operation, NormaTEI will show the data, generating a list that lists:
    - the file where that tag is present;
    - the complete route;
@@ -226,7 +226,7 @@ If a tag has no attributes, a row with empty attribute data is shown. If a tag h
 The number of distinct values for each column is shown at the bottom.
 
 ### Counting
-![Count per attribute](https://github.com/pierpaolosichera/NormaTEI/blob/main/README_images/04_Count.gif)
+![Count per attribute](https://raw.githubusercontent.com/pierpaolosichera/NormaTEI/7804d3a0d6818d2963f6f08b6fb56ed460103385/README_images/04_Count.gif)
 The "Count" button allows you to go to a summary window with respect to the data displayed.
 The following are displayed:
    - the metric on which the counting is performed (the columns of the search window);
@@ -234,7 +234,7 @@ The following are displayed:
    - in how many files is that phenomenon present at least once;
    - the files in which that phenomenon is present/absent (if the line has a green background those shown are the corpus files where that phenomenon is not present, if the line has a red background they are the corpus files where that phenomenon is found) ;
 
-![Count by tag](https://github.com/pierpaolosichera/NormaTEI/blob/main/README_images/05_CountAll.gif)
+![Count by tag](https://raw.githubusercontent.com/pierpaolosichera/NormaTEI/7804d3a0d6818d2963f6f08b6fb56ed460103385/README_images/05_CountAll.gif)
 Counting can be done by attribute or tag. Example: for the tag
 ```xml
  <ab n="ab_02" next="#LL1.10_ab_01_1v" part="I" rend="first_line_indented" type="parag" xml:id="LL1.10_ab_01_1r">
@@ -245,7 +245,7 @@ counting on the "Tag" metric:
    - if the counting is done by Tag, the value of ab is 1 (because ab is a single tag).
 
 ## Advanced usage
-![Advanced search](https://github.com/pierpaolosichera/NormaTEI/blob/main/README_images/06_AdvancedSearch.gif)
+![Advanced search](https://raw.githubusercontent.com/pierpaolosichera/NormaTEI/7804d3a0d6818d2963f6f08b6fb56ed460103385/README_images/06_AdvancedSearch.gif)
 By clicking on "Advanced" at the top right you can activate the advanced search window.
 Above the search string you can choose the criterion to apply to the search string:
   - Contains: the string is contained in the field (case insensitive);
@@ -255,11 +255,11 @@ Above the search string you can choose the criterion to apply to the search stri
   - Does not contain: the string isn't present in the field;
   - Match RegEx: the search string is evaluated as a regular expression.
 
-![Advanced search](https://github.com/pierpaolosichera/NormaTEI/blob/main/README_images/07_AdvancedSearchExample1.gif)
+![Advanced search](https://raw.githubusercontent.com/pierpaolosichera/NormaTEI/7804d3a0d6818d2963f6f08b6fb56ed460103385/README_images/07_AdvancedSearchExample1.gif)
 Here too it is possible to activate the counting function to analyze the results.
 
 ### Search on subsets of the corpus
-![Use results](https://github.com/pierpaolosichera/NormaTEI/blob/main/README_images/08_UseResults.gif)
+![Use results](https://raw.githubusercontent.com/pierpaolosichera/NormaTEI/7804d3a0d6818d2963f6f08b6fb56ed460103385/README_images/08_UseResults.gif)
 By clicking on the "Use" button you can copy the search results in the lower part of the window for later use:
   - What I use:
     - The selection: uses the rows found
@@ -271,7 +271,7 @@ By clicking on the "Use" button you can copy the search results in the lower par
     - Get common: results common to those already present in the lower part of the window are selected;
     - New selection: the selected results are used, removing any already present in the lower part of the window.
 
-![Reuse results](https://github.com/pierpaolosichera/NormaTEI/blob/main/README_images/09_SearchResults.gif)
+![Reuse results](https://raw.githubusercontent.com/pierpaolosichera/NormaTEI/7804d3a0d6818d2963f6f08b6fb56ed460103385/README_images/09_SearchResults.gif)
 At this point it is possible to carry out a new search on the entire corpus or by pressing "Search among results" a search can be carried out among the data selected in the lower part of the window.
 You can also count the lines displayed at the Top or Bottom of the window.
-![Count advanced results](https://github.com/pierpaolosichera/NormaTEI/blob/main/README_images/10_SearchResultsCount.gif)
+![Count advanced results](https://raw.githubusercontent.com/pierpaolosichera/NormaTEI/7804d3a0d6818d2963f6f08b6fb56ed460103385/README_images/10_SearchResultsCount.gif)
