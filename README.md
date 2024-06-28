@@ -64,6 +64,7 @@ Scegli "Create" e salvalo dove vuoi, NormaTEI ricorderà il percorso utilizzato.
 ![Importazione corpus](https://raw.githubusercontent.com/pierpaolosichera/NormaTEI/7804d3a0d6818d2963f6f08b6fb56ed460103385/README_images/02_Open.gif)
 Nella finestra di avvio cliccare su "Cambia...", per scegliere la cartella contenente i file XML, poi premi il tasto "Importa e analizza".
 Se hai gia importato dei file, puoi visualizzare i risultati senza eseguire una nuova importazione col pulsante in basso "Apri i file già caricati".
+Puoi aprire più finestre di importazione e analisi contemporaneamente andando sulla finestra pricipale del programma e scegliendo la voce di menu "Start NormaTEI".
 
 ### Ricerca
 ![Ricerca semplice](https://raw.githubusercontent.com/pierpaolosichera/NormaTEI/7804d3a0d6818d2963f6f08b6fb56ed460103385/README_images/03_SimpleSearch.gif)
@@ -204,6 +205,7 @@ Choose "Create" and save it wherever you want, NormaTEI will remember the path u
 ![Corpus import](https://raw.githubusercontent.com/pierpaolosichera/NormaTEI/7804d3a0d6818d2963f6f08b6fb56ed460103385/README_images/02_Open.gif)
 In the launch window click on "Change..." to choose the folder containing the XML files, then press the "Import and analyze" button.
 If you have already imported files, you can view the results without performing a new import with the "Open already uploaded files" button below.
+You can open multiple import and analysis windows at the same time by going to the main program window and choosing the "Start NormaTEI" menu item.
 
 ### Search
 ![Simple search](https://raw.githubusercontent.com/pierpaolosichera/NormaTEI/7804d3a0d6818d2963f6f08b6fb56ed460103385/README_images/03_SimpleSearch.gif)
@@ -251,8 +253,8 @@ Above the search string you can choose the criterion to apply to the search stri
   - Contains: the string is contained in the field (case insensitive);
   - Starts with: the string is found in the initial part of the field;
   - Ends with: the string is found in the final part of the field;
-  - Exact: the exact value of the string;
-  - Does not contain: the string isn't present in the field;
+  - Equals: the exact value of the string;
+  - Doesn't contain: the string isn't present in the field;
   - Match RegEx: the search string is evaluated as a regular expression.
 
 ![Advanced search](https://raw.githubusercontent.com/pierpaolosichera/NormaTEI/7804d3a0d6818d2963f6f08b6fb56ed460103385/README_images/07_AdvancedSearchExample1.gif)
