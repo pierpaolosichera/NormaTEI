@@ -1,5 +1,5 @@
 # NormaTEI
-<a href="https://doi.org/10.5281/zenodo.12581646"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.12581646.svg" alt="DOI"></a>
+<a href="https://doi.org/10.5281/zenodo.7703053"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.7703053.svg" alt="DOI"></a>
 
 
 <a href="http://dhawards.org/dhawards2023/results/"><img src="https://raw.githubusercontent.com/pierpaolosichera/NormaTEI/7804d3a0d6818d2963f6f08b6fb56ed460103385/README_images/DHAwards2023-tool.png" alt="DHAwards2023-tools"></a>
@@ -141,7 +141,7 @@ A questo punto è possibile effettuare una nuova ricerca sull'intero corpus oppu
 
 
 # NormaTEI
-<a href="https://doi.org/10.5281/zenodo.12581646"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.12581646.svg" alt="DOI"></a>
+<a href="https://doi.org/10.5281/zenodo.7703053"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.7703053.svg" alt="DOI"></a>
 
 <a href="http://dhawards.org/dhawards2023/results/"><img src="https://raw.githubusercontent.com/pierpaolosichera/NormaTEI/7804d3a0d6818d2963f6f08b6fb56ed460103385/README_images/DHAwards2023-tool.png" alt="DHAwards2023-tools"></a>
 
