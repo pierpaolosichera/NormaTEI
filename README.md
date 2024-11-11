@@ -150,7 +150,7 @@ NormaTEI is designed mainly for two uses:
   - control of encoding uniformity: when an XML/TEI edition is made up of multiple files, NormaTEI allows you to control them in an organic way, allowing you to easily identify errors or different encoding choices;
   - encoding analysis: personalized and complex searches on the selected corpus (one or more files).
 
-The name "Norma" recalls both the operation for which the software was developed ("normalization") and the most famous work of Vincenzo Bellini: NormaTEI was in fact developed during the creation of [Bellini Digital Correspondence, © Cnr Edizioni, 2023 ISBN: 978-88-8080-562-5, electronic edition](http://bellinicorrespondence.cnr.it).
+The name "Norma" recalls both the operation for which the software was developed ("normalization") and Vincenzo Bellini's most famous work: NormaTEI was in fact developed during the creation of [Bellini Digital Correspondence, © Cnr Edizioni, 2023 ISBN: 978-88-8080-562-5, electronic edition](http://bellinicorrespondence.cnr.it).
 
 ## Credits
 ### Analysis
